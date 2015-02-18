@@ -25,5 +25,5 @@ end
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
-
 gem 'bootstrap-sass'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
