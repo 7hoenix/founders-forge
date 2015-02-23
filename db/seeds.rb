@@ -5,3 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+founder_forge = Product.create( title: "Founders Forge",
+                                subtitle: "Continued Education for Founders",
+                                author: "Justin Holzmann",
+                                price: "4.99",
+                                sku: "FORGE1",
+                                description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+
+                                <p>In this talk, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
+                                <p><strong>What You'll Learn</strong></p>
+                                <ul class="no-indent">
+                                    <li>What is a growth hacker?</li>
+                                    <li>The 5 stages of the user lifecycle</li>
+                                    <li>How to apply the Lean Marketing Framework</li>
+                                    <li>Resources and tools you'll need to know</li>
+                                </ul>})
